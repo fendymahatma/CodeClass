@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2E7B35241F20AA9600C431F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35231F20AA9600C431F5 /* AppDelegate.swift */; };
-		2E7B35261F20AA9600C431F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35251F20AA9600C431F5 /* ViewController.swift */; };
+		2E7B35261F20AA9600C431F5 /* FirstPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35251F20AA9600C431F5 /* FirstPageVC.swift */; };
 		2E7B35291F20AA9600C431F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7B35271F20AA9600C431F5 /* Main.storyboard */; };
 		2E7B352B1F20AA9600C431F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7B352A1F20AA9600C431F5 /* Assets.xcassets */; };
 		2E7B352E1F20AA9600C431F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7B352C1F20AA9600C431F5 /* LaunchScreen.storyboard */; };
 		2E7B35391F20AA9700C431F5 /* CodeClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35381F20AA9700C431F5 /* CodeClassTests.swift */; };
+		2E7B35441F20B50F00C431F5 /* Manusia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35431F20B50F00C431F5 /* Manusia.swift */; };
+		2E7B35471F20B6E500C431F5 /* Pria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B35461F20B6E500C431F5 /* Pria.swift */; };
+		2EA1F7671F2306D1008AC466 /* SecondPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1F7661F2306D1008AC466 /* SecondPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		2E7B35201F20AA9600C431F5 /* CodeClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7B35231F20AA9600C431F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E7B35251F20AA9600C431F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E7B35251F20AA9600C431F5 /* FirstPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageVC.swift; sourceTree = "<group>"; };
 		2E7B35281F20AA9600C431F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E7B352A1F20AA9600C431F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7B352D1F20AA9600C431F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		2E7B35341F20AA9700C431F5 /* CodeClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7B35381F20AA9700C431F5 /* CodeClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeClassTests.swift; sourceTree = "<group>"; };
 		2E7B353A1F20AA9700C431F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7B35431F20B50F00C431F5 /* Manusia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manusia.swift; sourceTree = "<group>"; };
+		2E7B35461F20B6E500C431F5 /* Pria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pria.swift; sourceTree = "<group>"; };
+		2EA1F7661F2306D1008AC466 /* SecondPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,10 @@
 		2E7B35221F20AA9600C431F5 /* CodeClass */ = {
 			isa = PBXGroup;
 			children = (
+				2E7B35451F20B6BE00C431F5 /* Class */,
 				2E7B35231F20AA9600C431F5 /* AppDelegate.swift */,
-				2E7B35251F20AA9600C431F5 /* ViewController.swift */,
+				2EA1F7661F2306D1008AC466 /* SecondPageVC.swift */,
+				2E7B35251F20AA9600C431F5 /* FirstPageVC.swift */,
 				2E7B35271F20AA9600C431F5 /* Main.storyboard */,
 				2E7B352A1F20AA9600C431F5 /* Assets.xcassets */,
 				2E7B352C1F20AA9600C431F5 /* LaunchScreen.storyboard */,
@@ -94,6 +102,15 @@
 				2E7B353A1F20AA9700C431F5 /* Info.plist */,
 			);
 			path = CodeClassTests;
+			sourceTree = "<group>";
+		};
+		2E7B35451F20B6BE00C431F5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B35431F20B50F00C431F5 /* Manusia.swift */,
+				2E7B35461F20B6E500C431F5 /* Pria.swift */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,14 +158,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = kliklabs;
 				TargetAttributes = {
 					2E7B351F1F20AA9600C431F5 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 					2E7B35331F20AA9700C431F5 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 2E7B351F1F20AA9600C431F5;
 					};
 				};
@@ -197,8 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E7B35261F20AA9600C431F5 /* ViewController.swift in Sources */,
+				2E7B35441F20B50F00C431F5 /* Manusia.swift in Sources */,
+				2E7B35471F20B6E500C431F5 /* Pria.swift in Sources */,
+				2E7B35261F20AA9600C431F5 /* FirstPageVC.swift in Sources */,
 				2E7B35241F20AA9600C431F5 /* AppDelegate.swift in Sources */,
+				2EA1F7671F2306D1008AC466 /* SecondPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +276,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -300,8 +324,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -320,6 +346,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -333,6 +360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kliklabs.CodeClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kliklabs.CodeClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -355,6 +384,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kliklabs.CodeClassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeClass.app/CodeClass";
 			};
 			name = Debug;
@@ -367,6 +397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kliklabs.CodeClassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeClass.app/CodeClass";
 			};
 			name = Release;
@@ -390,6 +421,7 @@
 				2E7B353F1F20AA9700C431F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E7B35401F20AA9700C431F5 /* Build configuration list for PBXNativeTarget "CodeClassTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +430,7 @@
 				2E7B35421F20AA9700C431F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
